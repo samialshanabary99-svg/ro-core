@@ -1,0 +1,14 @@
+prt_fild01:
+  id: "prt_fild01"
+  width: 60
+  height: 60
+  tile_size: 32
+  # 60x60 grid flattened or nested. 0 = Walkable, 1 = Collision blocked.
+  # Initialized empty; populated via server MapInstance setup or tool validation.
+  collision: []
+  spawns:
+    - { mob_id: 1002, x: 15, y: 20, radius: 5, amount: 1, delay: 5000 }
+    - { mob_id: 1002, x: 40, y: 35, radius: 5, amount: 1, delay: 5000 }
+    - { mob_id: 1002, x: 25, y: 50, radius: 5, amount: 1, delay: 5000 }
+  warps:
+    - { x: 0, y: 30, target_map: "prontera", target_x: 150, target_y: 100 }
