@@ -1,0 +1,17 @@
+novice:
+  id: 0
+  name: "Novice"
+  max_base_level: 10
+  max_job_level: 10
+  base_hp: 40
+  base_sp: 11
+  hp_factor: 5      # added per base level
+  sp_factor: 2      # added per base level
+  stat_bonus:
+    str: 0
+    agi: 0
+    vit: 0
+    int: 0
+    dex: 0
+    luk: 0
+  skill_tree: []    # Reserved for future progression scope

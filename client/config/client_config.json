@@ -1,0 +1,15 @@
+{
+  "network": {
+    "server_url": "ws://127.0.0.1:3000",
+    "reconnect_delay_ms": 1000,
+    "max_reconnect_attempts": 5
+  },
+  "display": {
+    "tile_size": 32,
+    "pixel_perfect": true
+  },
+  "debug": {
+    "log_packets": true,
+    "draw_collision_layer": false
+  }
+}
